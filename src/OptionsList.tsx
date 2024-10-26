@@ -9,7 +9,10 @@ interface OptionsListProps {
 function OptionsList(props: OptionsListProps) {
 
   return <div id="options-list">
-    {props.options.map( option => <Option key={option} optionName={option} onOptionDeleted={() => props.onOptionDeleted(option)}/>)}
+    {props.options.map(option => <Option
+      key={option}
+      optionName={option}
+      onOptionDeleted={() => props.onOptionDeleted(option)}/>)}
   </div>
 }
 
