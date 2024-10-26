@@ -1,0 +1,8 @@
+{
+  "short_name": "Decide-O-Matic-5000",
+  "name": "Decide-O-Matic-5000",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
