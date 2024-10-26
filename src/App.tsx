@@ -9,7 +9,7 @@ const [options, setOptions] = useState(["Austin", "Sara", "Reginald"])
 const [decisionMode, setDecisionMode] = useState(DecisionMode.Normal)
 
 function onOptionDeleted(option: string) {
-
+  setOptions( options => [...options].filter( opt => opt !== option))
 }
 
   return <>
