@@ -8,8 +8,8 @@ interface OptionProps {
 function Option(props: OptionProps) {
 
     return <div id="option-container">
-        <h2 id="option-name"></h2>
-        <button>X</button>
+        <button id="delete-button">X</button>
+        <h2 id="option-name">{props.optionName}</h2>
     </div>
 }
 

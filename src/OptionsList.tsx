@@ -3,13 +3,13 @@ import Option from './Option'
 
 interface OptionsListProps {
   options: string[]
-  onOptionRemove: (option: string) => void
+  onOptionDeleted: (option: string) => void
 }
 
 function OptionsList(props: OptionsListProps) {
 
   return <div id="options-list">
-    {props.options.map( option => <Option optionName={option} onOptionDeleted={() => props.onOptionRemove(option)}/>)}
+    {props.options.map( option => <Option key={option} optionName={option} onOptionDeleted={() => props.onOptionDeleted(option)}/>)}
   </div>
 }
 
