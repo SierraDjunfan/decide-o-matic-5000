@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/decide-o-matic-5000/static/css/main.0a246a03.css",
-    "main.js": "/decide-o-matic-5000/static/js/main.2349d30b.js",
+    "main.css": "/decide-o-matic-5000/static/css/main.174b3870.css",
+    "main.js": "/decide-o-matic-5000/static/js/main.7aac40cf.js",
     "index.html": "/decide-o-matic-5000/index.html",
-    "main.0a246a03.css.map": "/decide-o-matic-5000/static/css/main.0a246a03.css.map",
-    "main.2349d30b.js.map": "/decide-o-matic-5000/static/js/main.2349d30b.js.map"
+    "main.174b3870.css.map": "/decide-o-matic-5000/static/css/main.174b3870.css.map",
+    "main.7aac40cf.js.map": "/decide-o-matic-5000/static/js/main.7aac40cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a246a03.css",
-    "static/js/main.2349d30b.js"
+    "static/css/main.174b3870.css",
+    "static/js/main.7aac40cf.js"
   ]
 }
